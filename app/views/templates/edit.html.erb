@@ -1,0 +1,7 @@
+<h1>Editing Template</h1>
+
+<%= render 'form', template: @template %>
+
+<%= link_to 'Show', @template %> |
+<%= link_to 'Add items', new_task_path(template_id: @template) %> |
+<%= link_to 'Back', templates_path %>
